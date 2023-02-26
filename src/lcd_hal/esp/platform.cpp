@@ -24,7 +24,7 @@
 
 #include "../io.h"
 
-#if defined(__XTENSA__) && !defined(ARDUINO)
+#if defined(ESP_PLATFORM) && !defined(ARDUINO)
 
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"

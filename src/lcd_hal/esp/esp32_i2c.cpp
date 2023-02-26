@@ -48,7 +48,7 @@ EspI2c::~EspI2c()
 void EspI2c::begin()
 {
     if ( m_busId < 0 )
-        m_busId = I2C_NUM_1;
+        m_busId = I2C_NUM_0;
     if ( m_sda < 0 )
         m_sda = 21;
     if ( m_scl < 0 )

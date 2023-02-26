@@ -65,7 +65,7 @@
 #include "avr/spi_usi.h"
 #include "avr/i2c_embedded.h"
 #endif
-#elif defined(__XTENSA__) && !defined(ARDUINO)
+#elif defined(ESP_PLATFORM) && !defined(ARDUINO)
 #include "esp/io.h"
 #ifdef __cplusplus
 #include "esp/esp32_i2c.h"
